@@ -1,0 +1,362 @@
+C:\Users\Ajwa\source\repos\student_finances_system\student_finances_system\bin\Debug\student_finances_system.exe.config
+C:\Users\Ajwa\source\repos\student_finances_system\student_finances_system\bin\Debug\student_finances_system.exe
+C:\Users\Ajwa\source\repos\student_finances_system\student_finances_system\bin\Debug\student_finances_system.pdb
+C:\Users\Ajwa\source\repos\student_finances_system\student_finances_system\obj\Debug\student_finances_system.Form1.resources
+C:\Users\Ajwa\source\repos\student_finances_system\student_finances_system\obj\Debug\student_finances_system.installmentdetail.resources
+C:\Users\Ajwa\source\repos\student_finances_system\student_finances_system\obj\Debug\student_finances_system.payment.resources
+C:\Users\Ajwa\source\repos\student_finances_system\student_finances_system\obj\Debug\student_finances_system.Properties.Resources.resources
+C:\Users\Ajwa\source\repos\student_finances_system\student_finances_system\obj\Debug\student_finances_system.studentinfo.resources
+C:\Users\Ajwa\source\repos\student_finances_system\student_finances_system\obj\Debug\student_finances_system.studentreport.resources
+C:\Users\Ajwa\source\repos\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.GenerateResource.Cache
+C:\Users\Ajwa\source\repos\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.CoreCompileInputs.cache
+C:\Users\Ajwa\source\repos\student_finances_system\student_finances_system\obj\Debug\student_finances_system.exe
+C:\Users\Ajwa\source\repos\student_finances_system\student_finances_system\obj\Debug\student_finances_system.pdb
+C:\Users\Ajwa\source\repos\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csprojAssemblyReference.cache
+C:\Users\Ajwa\source\repos\student_finances_system\student_finances_system\obj\Debug\student_finances_system.loginform.resources
+E:\OOP\Academy Management System\student_finances_system\student_finances_system\bin\Debug\student_finances_system.exe.config
+E:\OOP\Academy Management System\student_finances_system\student_finances_system\bin\Debug\student_finances_system.exe
+E:\OOP\Academy Management System\student_finances_system\student_finances_system\bin\Debug\student_finances_system.pdb
+E:\OOP\Academy Management System\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.AssemblyReference.cache
+E:\OOP\Academy Management System\student_finances_system\student_finances_system\obj\Debug\student_finances_system.loginform.resources
+E:\OOP\Academy Management System\student_finances_system\student_finances_system\obj\Debug\student_finances_system.Form1.resources
+E:\OOP\Academy Management System\student_finances_system\student_finances_system\obj\Debug\student_finances_system.installmentdetail.resources
+E:\OOP\Academy Management System\student_finances_system\student_finances_system\obj\Debug\student_finances_system.payment.resources
+E:\OOP\Academy Management System\student_finances_system\student_finances_system\obj\Debug\student_finances_system.Properties.Resources.resources
+E:\OOP\Academy Management System\student_finances_system\student_finances_system\obj\Debug\student_finances_system.studentinfo.resources
+E:\OOP\Academy Management System\student_finances_system\student_finances_system\obj\Debug\student_finances_system.studentreport.resources
+E:\OOP\Academy Management System\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.GenerateResource.cache
+E:\OOP\Academy Management System\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.CoreCompileInputs.cache
+E:\OOP\Academy Management System\student_finances_system\student_finances_system\obj\Debug\student_finances_system.exe
+E:\OOP\Academy Management System\student_finances_system\student_finances_system\obj\Debug\student_finances_system.pdb
+D:\New folder\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\student_finances_system.exe.config
+D:\New folder\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\student_finances_system.exe
+D:\New folder\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\student_finances_system.pdb
+D:\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.AssemblyReference.cache
+D:\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.Form1.resources
+D:\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.installmentdetail.resources
+D:\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.payment.resources
+D:\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.Properties.Resources.resources
+D:\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.studentinfo.resources
+D:\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.studentreport.resources
+D:\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.GenerateResource.cache
+D:\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.CoreCompileInputs.cache
+D:\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.exe
+D:\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.pdb
+D:\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.loginform.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\student_finances_system.exe.config
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\student_finances_system.exe
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\student_finances_system.pdb
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.AddExpense.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.loginform.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.ExpenxeReport.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.Form1.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.installmentdetail.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.payment.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.Properties.Resources.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.studentinfo.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.studentreport.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.StudentRort.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.TeachSal.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.GenerateResource.Cache
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.CoreCompileInputs.cache
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.exe
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.pdb
+C:\Users\GHULAM HABIB\OneDrive\Desktop\Project\New folder\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csprojResolveAssemblyReference.cache
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\student_finances_system.exe.config
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\student_finances_system.exe
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\student_finances_system.pdb
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csprojAssemblyReference.cache
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.AddExpense.resources
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.loginform.resources
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.ExpenxeReport.resources
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.Form1.resources
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.installmentdetail.resources
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.payment.resources
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.Properties.Resources.resources
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.studentinfo.resources
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.studentreport.resources
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.StudentRort.resources
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.TeachSal.resources
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.GenerateResource.cache
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.CoreCompileInputs.cache
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.exe
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.pdb
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\netstandard.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.AppContext.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Collections.Concurrent.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Collections.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Collections.NonGeneric.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Collections.Specialized.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.ComponentModel.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.ComponentModel.Primitives.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Console.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Data.Common.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.Contracts.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.Debug.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.Process.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.Tools.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.Tracing.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Drawing.Primitives.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Dynamic.Runtime.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Globalization.Calendars.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Globalization.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Globalization.Extensions.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.Compression.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.FileSystem.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.IsolatedStorage.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.Pipes.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Linq.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Linq.Expressions.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Linq.Parallel.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Linq.Queryable.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.Http.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.NameResolution.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.NetworkInformation.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.Ping.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.Primitives.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.Requests.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.Security.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.Sockets.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.WebSockets.Client.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.WebSockets.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.ObjectModel.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Reflection.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Reflection.Extensions.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Reflection.Primitives.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Resources.Reader.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Resources.ResourceManager.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Resources.Writer.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.Extensions.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.Handles.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.InteropServices.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.Numerics.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.Claims.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.Principal.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.SecureString.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Text.Encoding.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Text.RegularExpressions.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Threading.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Threading.Overlapped.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Threading.Tasks.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Threading.Thread.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Threading.ThreadPool.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Threading.Timer.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.ValueTuple.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Xml.ReaderWriter.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Xml.XDocument.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Xml.XmlDocument.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Xml.XmlSerializer.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Xml.XPath.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ClosedXML.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ClosedXML.Parser.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ClosedXML.Report.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\DocumentFormat.OpenXml.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ExcelNumberFormat.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\MoreLinq.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\RBush.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\SixLabors.Fonts.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Buffers.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Linq.Dynamic.Core.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Memory.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Numerics.Vectors.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ClosedXML.pdb
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ClosedXML.xml
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ClosedXML.Parser.xml
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\DocumentFormat.OpenXml.xml
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ExcelNumberFormat.xml
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\MoreLinq.pdb
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\MoreLinq.xml
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\RBush.xml
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\SixLabors.Fonts.xml
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Buffers.xml
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Linq.Dynamic.Core.pdb
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Linq.Dynamic.Core.xml
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Memory.xml
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Numerics.Vectors.xml
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.exe.config
+D:\CODING LANGUAGES\c#\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.CopyComplete
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\student_finances_system.exe.config
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\student_finances_system.exe
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\student_finances_system.pdb
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\netstandard.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.AppContext.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Collections.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Collections.Specialized.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.ComponentModel.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Console.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Data.Common.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Globalization.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.Compression.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.FileSystem.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.Pipes.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Linq.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Linq.Expressions.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Linq.Parallel.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Linq.Queryable.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.Http.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.NameResolution.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.Ping.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.Primitives.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.Requests.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.Security.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.Sockets.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Net.WebSockets.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.ObjectModel.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Reflection.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Resources.Reader.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Resources.Writer.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.Handles.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.Claims.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.Principal.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Security.SecureString.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Text.Encoding.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Threading.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Threading.Tasks.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Threading.Thread.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Threading.Timer.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.ValueTuple.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Xml.XDocument.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Xml.XPath.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ClosedXML.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ClosedXML.Parser.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ClosedXML.Report.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ExcelNumberFormat.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\MoreLinq.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\RBush.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\SixLabors.Fonts.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Buffers.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Linq.Dynamic.Core.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Memory.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ClosedXML.pdb
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ClosedXML.xml
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ClosedXML.Parser.xml
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\ExcelNumberFormat.xml
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\MoreLinq.pdb
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\MoreLinq.xml
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\RBush.xml
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\SixLabors.Fonts.xml
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Buffers.xml
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Linq.Dynamic.Core.pdb
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Linq.Dynamic.Core.xml
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Memory.xml
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csprojResolveAssemblyReference.cache
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.student_finances_system.exe.config
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.AddExpense.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.loginform.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.ExpenxeReport.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.Form1.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.installmentdetail.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.payment.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.Properties.Resources.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.studentinfo.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.studentreport.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.StudentRort.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.GenerateResource.Cache
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.CoreCompileInputs.cache
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.exe
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.pdb
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.PayTeacherSalary.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\PROJECTX\C-academy-Project\student_finances_system\student_finances_system\obj\Debug\student_finances_system.TeacherAddmission.resources
