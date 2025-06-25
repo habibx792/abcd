@@ -93,5 +93,10 @@ namespace student_finances_system
         {
             loadform(new TeacherSalary());
         }
+
+        private void btnRTS_Click(object sender, EventArgs e)
+        {
+            loadform(new MangeRTS());
+        }
     }
 }

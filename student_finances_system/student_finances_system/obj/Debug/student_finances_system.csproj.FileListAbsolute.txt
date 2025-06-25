@@ -507,3 +507,8 @@ C:\Users\GHULAM HABIB\OneDrive\Desktop\New folder\abcd\student_finances_system\s
 C:\Users\GHULAM HABIB\OneDrive\Desktop\New folder\abcd\student_finances_system\student_finances_system\obj\Debug\student_finances_system.csproj.CoreCompileInputs.cache
 C:\Users\GHULAM HABIB\OneDrive\Desktop\New folder\abcd\student_finances_system\student_finances_system\obj\Debug\student_finances_system.exe
 C:\Users\GHULAM HABIB\OneDrive\Desktop\New folder\abcd\student_finances_system\student_finances_system\obj\Debug\student_finances_system.pdb
+C:\Users\GHULAM HABIB\OneDrive\Desktop\New folder\abcd\student_finances_system\student_finances_system\obj\Debug\student_finances_system.MangeRTS.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\New folder\abcd\student_finances_system\student_finances_system\obj\Debug\student_finances_system.RTSPayeMent.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\New folder\abcd\student_finances_system\student_finances_system\obj\Debug\student_finances_system.RTS_Report.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\New folder\abcd\student_finances_system\student_finances_system\obj\Debug\student_finances_system.RtsPayment.resources
+C:\Users\GHULAM HABIB\OneDrive\Desktop\New folder\abcd\student_finances_system\student_finances_system\obj\Debug\student_finances_system.RTSSearch.resources

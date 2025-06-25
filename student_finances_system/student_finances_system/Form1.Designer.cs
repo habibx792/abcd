@@ -38,8 +38,9 @@
             this.btnExpense = new System.Windows.Forms.Button();
             this.btnGenRepo = new System.Windows.Forms.Button();
             this.btnTeacherAdd = new System.Windows.Forms.Button();
-            this.displaypanel = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.displaypanel = new System.Windows.Forms.Panel();
+            this.btnRTS = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.SuspendLayout();
@@ -80,6 +81,7 @@
             this.mainPanel.Controls.Add(this.btnGenRepo);
             this.mainPanel.Controls.Add(this.btnTeacherAdd);
             this.mainPanel.Controls.Add(this.button1);
+            this.mainPanel.Controls.Add(this.btnRTS);
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.mainPanel.Location = new System.Drawing.Point(0, 21);
             this.mainPanel.Margin = new System.Windows.Forms.Padding(2);
@@ -93,6 +95,7 @@
             this.btnDashboard.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnDashboard.BackColor = System.Drawing.Color.Black;
+            this.btnDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDashboard.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnDashboard.Location = new System.Drawing.Point(2, 2);
             this.btnDashboard.Margin = new System.Windows.Forms.Padding(2);
@@ -108,6 +111,7 @@
             this.btnstudentinfo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnstudentinfo.BackColor = System.Drawing.Color.Black;
+            this.btnstudentinfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnstudentinfo.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnstudentinfo.Location = new System.Drawing.Point(2, 54);
             this.btnstudentinfo.Margin = new System.Windows.Forms.Padding(2);
@@ -123,6 +127,7 @@
             this.btnPayment.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnPayment.BackColor = System.Drawing.Color.Black;
+            this.btnPayment.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPayment.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnPayment.Location = new System.Drawing.Point(2, 114);
             this.btnPayment.Margin = new System.Windows.Forms.Padding(2);
@@ -136,6 +141,7 @@
             // btninstallment
             // 
             this.btninstallment.BackColor = System.Drawing.Color.Black;
+            this.btninstallment.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btninstallment.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btninstallment.Location = new System.Drawing.Point(2, 169);
             this.btninstallment.Margin = new System.Windows.Forms.Padding(2);
@@ -149,10 +155,11 @@
             // btnExpense
             // 
             this.btnExpense.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnExpense.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExpense.ForeColor = System.Drawing.Color.White;
             this.btnExpense.Location = new System.Drawing.Point(3, 230);
             this.btnExpense.Name = "btnExpense";
-            this.btnExpense.Size = new System.Drawing.Size(127, 41);
+            this.btnExpense.Size = new System.Drawing.Size(127, 52);
             this.btnExpense.TabIndex = 6;
             this.btnExpense.Text = "Add Expenses";
             this.btnExpense.UseVisualStyleBackColor = false;
@@ -161,10 +168,11 @@
             // btnGenRepo
             // 
             this.btnGenRepo.BackColor = System.Drawing.Color.Black;
+            this.btnGenRepo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenRepo.ForeColor = System.Drawing.Color.White;
-            this.btnGenRepo.Location = new System.Drawing.Point(3, 277);
+            this.btnGenRepo.Location = new System.Drawing.Point(3, 288);
             this.btnGenRepo.Name = "btnGenRepo";
-            this.btnGenRepo.Size = new System.Drawing.Size(127, 31);
+            this.btnGenRepo.Size = new System.Drawing.Size(127, 46);
             this.btnGenRepo.TabIndex = 0;
             this.btnGenRepo.Text = "ExpenseRort";
             this.btnGenRepo.UseVisualStyleBackColor = false;
@@ -173,14 +181,28 @@
             // btnTeacherAdd
             // 
             this.btnTeacherAdd.BackColor = System.Drawing.Color.Black;
+            this.btnTeacherAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTeacherAdd.ForeColor = System.Drawing.Color.White;
-            this.btnTeacherAdd.Location = new System.Drawing.Point(3, 314);
+            this.btnTeacherAdd.Location = new System.Drawing.Point(3, 340);
             this.btnTeacherAdd.Name = "btnTeacherAdd";
-            this.btnTeacherAdd.Size = new System.Drawing.Size(127, 38);
+            this.btnTeacherAdd.Size = new System.Drawing.Size(127, 46);
             this.btnTeacherAdd.TabIndex = 3;
             this.btnTeacherAdd.Text = "Teacher Addmission";
             this.btnTeacherAdd.UseVisualStyleBackColor = false;
             this.btnTeacherAdd.Click += new System.EventHandler(this.btnTeacherSala_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(3, 392);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(127, 41);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Pay Salary";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // displaypanel
             // 
@@ -192,18 +214,18 @@
             this.displaypanel.TabIndex = 2;
             this.displaypanel.Paint += new System.Windows.Forms.PaintEventHandler(this.displaypanel_Paint);
             // 
-            // button1
+            // btnRTS
             // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(3, 358);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 41);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Pay Salary";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.btnRTS.BackColor = System.Drawing.Color.Black;
+            this.btnRTS.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRTS.ForeColor = System.Drawing.Color.White;
+            this.btnRTS.Location = new System.Drawing.Point(3, 439);
+            this.btnRTS.Name = "btnRTS";
+            this.btnRTS.Size = new System.Drawing.Size(127, 39);
+            this.btnRTS.TabIndex = 7;
+            this.btnRTS.Text = "Manege RTS";
+            this.btnRTS.UseVisualStyleBackColor = false;
+            this.btnRTS.Click += new System.EventHandler(this.btnRTS_Click);
             // 
             // Form1
             // 
@@ -240,6 +262,7 @@
         private System.Windows.Forms.Button btnGenRepo;
         private System.Windows.Forms.Button btnTeacherAdd;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnRTS;
     }
 }
 

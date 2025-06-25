@@ -51,6 +51,12 @@ namespace student_finances_system
             ExpenseDataGrid.Columns["Amount"].Width = 169;
             ExpenseDataGrid.Columns["Date"].Width = 175;
             ExpenseDataGrid.Columns["Month"].Width = 145;
+
+            //int year = DateTime.Now;
+            
+            Label lab = new Label();
+          
+
         }
 
         private void ExpenxeReport_Load(object sender, EventArgs e)
@@ -60,34 +66,28 @@ namespace student_finances_system
             ExpenseDataGrid.Columns[2].Width = 100;
             ExpenseDataGrid.Columns[3].Width = 100;
             ExpenseDataGrid.Columns[4].Width = 100;
-            Dictionary<int, string> months = new Dictionary<int, string>
-{
-                     {1, "January"},
-                     {2, "February"},
-                     {3, "March"},
-                     {4, "April"},
-                     {5, "May"},
-                     {6, "June"},
-                     {7, "July"},
-                     {8, "August"},
-                     {9, "September"},
-                      {10, "October"},
-                      {11, "November"},
-                      {12, "December"}
-};
-            cmbEndMonth.DataSource = new BindingSource(months, null);
-            cmbEndMonth.DisplayMember = "Value";
-            cmbEndMonth.ValueMember = "Key";
-            cmbStartMonth.DataSource = new BindingSource(months, null);
-            cmbStartMonth.DisplayMember = "Value";
-            cmbStartMonth.ValueMember = "Key";
 
-            cmbstdStartmonth.DataSource=new BindingSource(months, null);
-            cmbstdStartmonth.DisplayMember = "Value";
-            cmbstdStartmonth.ValueMember = "Key";
-            cmbstdEndmonth.DataSource = new BindingSource(months, null);
-            cmbstdEndmonth.DisplayMember = "Value";
-            cmbstdEndmonth.ValueMember = "Key";
+            Connector.AddMonthToComboBox(cmbStartMonth);
+            Connector.AddMonthToComboBox(cmbEndMonth);
+
+            Connector.AddMonthToComboBox(cmbstdStartmonth);
+            Connector.AddMonthToComboBox(cmbstdEndmonth);
+           
+
+            Connector.AddMonthToComboBox(cmbLostStart);
+            Connector.AddMonthToComboBox(cmbLostEnd);
+
+            lblYearNow.Text = "";
+            lblYearNow.Text = DateTime.Now.Year.ToString();
+            int year = int.Parse(DateTime.Now.Year.ToString());
+            int backYear = year - 5;
+            int forwardYear = year + 5;
+            for(int i= backYear; i <= forwardYear; i++)
+            {
+                cmbYear.Items.Add(i);
+                cmbstdYear.Items.Add(i);
+                cmbLostYear.Items.Add(i);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -217,5 +217,106 @@ namespace student_finances_system
 
            
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnStdExel_Click(object sender, EventArgs e)
+        {
+            if (DatagridStd.Rows.Count > 0)
+            {
+                using (SaveFileDialog sfd = new SaveFileDialog()
+                {
+                    Filter = "Excel Workbook|*.xlsx",
+                    Title = "Save Student Report",
+                    FileName = "StudentReport.xlsx"
+                })
+                {
+                    if (sfd.ShowDialog() == DialogResult.OK)
+                    {
+                        using (XLWorkbook workbook = new XLWorkbook())
+                        {
+                            DataTable dt = new DataTable("StudentReport");
+
+                            // Add columns from DataGridView
+                            foreach (DataGridViewColumn col in DatagridStd.Columns)
+                            {
+                                dt.Columns.Add(col.HeaderText);
+                            }
+
+                            // Add rows from DataGridView
+                            foreach (DataGridViewRow row in DatagridStd.Rows)
+                            {
+                                if (!row.IsNewRow)
+                                {
+                                    DataRow newRow = dt.NewRow();
+                                    for (int i = 0; i < DatagridStd.Columns.Count; i++)
+                                    {
+                                        newRow[i] = row.Cells[i].Value?.ToString() ?? "";
+                                    }
+                                    dt.Rows.Add(newRow);
+                                }
+                            }
+
+                            var ws = workbook.Worksheets.Add(dt);
+
+                            // 🎨 Format header row
+                            var headerRange = ws.Range(1, 1, 1, dt.Columns.Count);
+                            headerRange.Style.Fill.BackgroundColor = XLColor.LightSteelBlue;
+                            headerRange.Style.Font.FontColor = XLColor.White;
+                            headerRange.Style.Font.Bold = true;
+                            headerRange.Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Center;
+                            headerRange.Style.Font.FontName = "Calibri";
+
+                            // 📏 Set custom column widths
+                            for (int i = 1; i <= dt.Columns.Count; i++)
+                            {
+                                ws.Column(i).Width = 20; // or set different widths if needed
+                            }
+
+                            // 🔢 Calculate total of AmountPaid where IsPaid == 1
+                            double totalAmountPaid = 0;
+                            foreach (DataGridViewRow row in DatagridStd.Rows)
+                            {
+                                if (!row.IsNewRow)
+                                {
+                                    bool isPaid = row.Cells["IsPaid"].Value?.ToString() == "True" || row.Cells["IsPaid"].Value?.ToString() == "1";
+                                    if (isPaid && double.TryParse(row.Cells["AmountPaid"].Value?.ToString(), out double amt))
+                                    {
+                                        totalAmountPaid += amt;
+                                    }
+                                }
+                            }
+
+                            // 🧮 Add Total Row
+                            int totalRowIndex = dt.Rows.Count + 2;
+                            int amountColIndex = DatagridStd.Columns["AmountPaid"].Index + 1;
+                            int labelColIndex = amountColIndex - 1;
+
+                            ws.Cell(totalRowIndex, labelColIndex).Value = "Total Paid:";
+                            ws.Cell(totalRowIndex, amountColIndex).Value = totalAmountPaid;
+
+                            // 🎨 Style total row in red and bold
+                            var totalRange = ws.Range(totalRowIndex, labelColIndex, totalRowIndex, amountColIndex);
+                            totalRange.Style.Font.FontColor = XLColor.Red;
+                            totalRange.Style.Font.Bold = true;
+
+                            // ✅ Save the Excel file
+                            workbook.SaveAs(sfd.FileName);
+                            MessageBox.Show("✅ Excel file saved with colored headers and total!", "Success");
+                        }
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("⚠️ No student data found to export!", "Export Error");
+            }
+        }
+
+
+
     }
 }

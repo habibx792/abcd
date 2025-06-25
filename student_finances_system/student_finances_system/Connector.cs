@@ -102,28 +102,38 @@ namespace student_finances_system
         public static DataSet GenerateStudentReport(int startingMonth, int endningMonth)
         {
             SqlConnection con = CreateConnection();
-            string query = @"SELECT *
-                    FROM TransactionHistory
-                    WHERE 
-                    
-                 (
+            string query = @"
+    SELECT 
+        TransactionID, 
+        StudentInfo.StudentID, 
+        FullName, 
+        FatherName, 
+        Class,       
+        TransactionHistory.AmountPaid,
+        IsPaid
+    FROM TransactionHistory
+    INNER JOIN StudentInfo 
+        ON TransactionHistory.StudentID = StudentInfo.StudentID
+    WHERE 
+        TransactionHistory.IsPaid = 1
+        AND (
             CASE MonthName
-            WHEN 'January' THEN 1
-            WHEN 'February' THEN 2
-            WHEN 'March' THEN 3
-            WHEN 'April' THEN 4
-            WHEN 'May' THEN 5
-            WHEN 'June' THEN 6
-            WHEN 'July' THEN 7
-            WHEN 'August' THEN 8
-            WHEN 'September' THEN 9
-            WHEN 'October' THEN 10
-            WHEN 'November' THEN 11
-            WHEN 'December' THEN 12
-            ELSE 0  -- fallback for unmatched values
-             END
-            ) BETWEEN @startMonth AND @endMonth";
-          
+                WHEN 'January' THEN 1
+                WHEN 'February' THEN 2
+                WHEN 'March' THEN 3
+                WHEN 'April' THEN 4
+                WHEN 'May' THEN 5
+                WHEN 'June' THEN 6
+                WHEN 'July' THEN 7
+                WHEN 'August' THEN 8
+                WHEN 'September' THEN 9
+                WHEN 'October' THEN 10
+                WHEN 'November' THEN 11
+                WHEN 'December' THEN 12
+                ELSE 0
+            END
+        ) BETWEEN @startMonth AND @endMonth order by Class;";
+
             SqlCommand cmd = GetCommand(query, con);
             cmd.Parameters.AddWithValue("@startMonth", startingMonth);
             cmd.Parameters.AddWithValue("@endMonth", endningMonth);
@@ -230,6 +240,59 @@ namespace student_finances_system
                 MessageBox.Show("Paid");
             }
         }
+        // maganenig rts
+        //inserting alread std from accedmy data
+        public static void InsertDataAccdemyStudent()
+        {
+            string query = @"insert into RtsRegistrationAndFee(StudentID,StudentName,FatherName,Class)
+                            select * from StudentInfoForRTS
+                            where StudentID not in (select StudentID from RtsRegistrationAndFee);";
+            try
+            {
+                SqlConnection con = CreateConnection();
+                SqlCommand cmd = GetCommand(query, con);
+                int effectedRow = cmd.ExecuteNonQuery();
+                if (effectedRow > 0)
+                {
+                    MessageBox.Show("Done");
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Not Added");
+            }
+           
+        }
+        //new std rts Resiger
+        public static void RtsRegistration(string name,string fatherName,string rtsClass)
+        {
+            Random rand = new Random();
+            int randomNumber = rand.Next(1000, 10000); 
+            string studentID = randomNumber.ToString();
 
+            string query = @"insert into RtsRegistrationAndFee(StudentID,StudentName,FatherName,Class)
+                    values(@studentID,@StudentName,@FatherName,@Class)";
+           
+            try
+            {
+                SqlConnection con = CreateConnection();
+                SqlCommand cmd = GetCommand(query, con);
+                cmd.Parameters.AddWithValue("@studentID", studentID);
+                cmd.Parameters.AddWithValue("@StudentName", name);
+                cmd.Parameters.AddWithValue("@FatherName", fatherName);
+                 cmd.Parameters.AddWithValue("@Class", rtsClass);
+                int effectedRow = cmd.ExecuteNonQuery();
+                if (effectedRow > 0)
+                {
+                    MessageBox.Show("Register Successfullu!!!");
+                }
+
+
+            }
+            catch
+            {
+                MessageBox.Show("!! Failed Registertion");
+            }
+        }
     }
 }

@@ -125,6 +125,12 @@
     <Compile Include="installmentdetail.Designer.cs">
       <DependentUpon>installmentdetail.cs</DependentUpon>
     </Compile>
+    <Compile Include="MangeRTS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MangeRTS.Designer.cs">
+      <DependentUpon>MangeRTS.cs</DependentUpon>
+    </Compile>
     <Compile Include="payment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +139,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RTS Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RTS Report.Designer.cs">
+      <DependentUpon>RTS Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RtsPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RtsPayment.Designer.cs">
+      <DependentUpon>RtsPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RTSSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RTSSearch.Designer.cs">
+      <DependentUpon>RTSSearch.cs</DependentUpon>
+    </Compile>
     <Compile Include="studentinfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +176,12 @@
     <Compile Include="TeacherSalary.Designer.cs">
       <DependentUpon>TeacherSalary.cs</DependentUpon>
     </Compile>
+    <Compile Include="RTSPayeMent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RTSPayeMent.Designer.cs">
+      <DependentUpon>RTSPayeMent.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddExpense.resx">
       <DependentUpon>AddExpense.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,6 +197,9 @@
     <EmbeddedResource Include="installmentdetail.resx">
       <DependentUpon>installmentdetail.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MangeRTS.resx">
+      <DependentUpon>MangeRTS.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="payment.resx">
       <DependentUpon>payment.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,6 +213,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RTS Report.resx">
+      <DependentUpon>RTS Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RtsPayment.resx">
+      <DependentUpon>RtsPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RTSSearch.resx">
+      <DependentUpon>RTSSearch.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="studentinfo.resx">
       <DependentUpon>studentinfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -188,6 +230,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TeacherSalary.resx">
       <DependentUpon>TeacherSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RTSPayeMent.resx">
+      <DependentUpon>RTSPayeMent.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
