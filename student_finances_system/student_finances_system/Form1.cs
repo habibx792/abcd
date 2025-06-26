@@ -87,6 +87,7 @@ namespace student_finances_system
         private void btnTeacherSala_Click(object sender, EventArgs e)
         {
             loadform(new TeacherAddmission());
+
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -97,6 +98,11 @@ namespace student_finances_system
         private void btnRTS_Click(object sender, EventArgs e)
         {
             loadform(new MangeRTS());
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

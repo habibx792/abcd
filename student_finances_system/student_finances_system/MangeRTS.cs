@@ -24,24 +24,15 @@ namespace student_finances_system
 
         private void MangeRTS_Load(object sender, EventArgs e)
         {
-            Connector.InsertDataAccdemyStudent();
-            PanelRegister.Height = 710;
-            PanelRegister.Width = 440;
-
-
+          //  Connector.InsertDataAccdemyStudent();
+            MainPanel.Height = 710;
+            MainPanel.Width = 440;
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string name = txtName.Text;
-            string fatherName = TxtFatherName.Text;
-            string RtsClass = cmbClass.SelectedItem.ToString();
-            Connector.RtsRegistration(name,fatherName, RtsClass);
-            txtName.Text = "";
-            TxtFatherName.Text = "";
-
-          
-            cmbClass.SelectedIndex = -1;
+           
 
         }
 
@@ -67,18 +58,10 @@ namespace student_finances_system
 
         private void btnPay_Click(object sender, EventArgs e)
         {
-            PanelRegister.Visible = false;
-
-            // Add the UserControl to the panel
-
-
-            RTSPayeMent paymentControl = new RTSPayeMent();
-            paymentControl.Dock = DockStyle.Fill;
-            PanelRegister.Controls.Add(paymentControl);
-
-
-
-
+            MainPanel.Controls.Clear();
+            RTSPayeMent rtsReg = new RTSPayeMent();
+            rtsReg.Dock = DockStyle.Fill;
+            MainPanel.Controls.Add(rtsReg);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -88,7 +71,49 @@ namespace student_finances_system
 
         private void bntSerach_Click(object sender, EventArgs e)
         {
+            MainPanel.Controls.Clear();
+            SearchRTS SeerhcEngine = new SearchRTS();
+            SeerhcEngine.Dock = DockStyle.Fill;
+            MainPanel.Controls.Add(SeerhcEngine);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MainPanel.Controls.Clear();
+            RTSReports Report = new RTSReports();
+            Report.Dock = DockStyle.Fill;
+            MainPanel.Controls.Add(Report);
+        }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+
+            MainPanel.Controls.Clear();
+            RTSRegistertion rtsReg = new RTSRegistertion();
+            rtsReg.Dock = DockStyle.Fill;
+            MainPanel.Controls.Add(rtsReg);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
 
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        private void btnSetRtsFee_Click(object sender, EventArgs e)
+        {
+            MainPanel.Controls.Clear();
+            SetRTSFEE SetFee = new SetRTSFEE();
+            SetFee.Dock = DockStyle.Fill;
+            MainPanel.Controls.Add(SetFee);
+
+        }
+
+
+
+       
     }
 }

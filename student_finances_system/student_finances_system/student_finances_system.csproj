@@ -139,23 +139,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RTS Report.cs">
-      <SubType>Form</SubType>
+    <Compile Include="SearchRTS.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="RTS Report.Designer.cs">
-      <DependentUpon>RTS Report.cs</DependentUpon>
+    <Compile Include="SearchRTS.Designer.cs">
+      <DependentUpon>SearchRTS.cs</DependentUpon>
     </Compile>
-    <Compile Include="RtsPayment.cs">
-      <SubType>Form</SubType>
+    <Compile Include="SetRTSFEE.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="RtsPayment.Designer.cs">
-      <DependentUpon>RtsPayment.cs</DependentUpon>
-    </Compile>
-    <Compile Include="RTSSearch.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RTSSearch.Designer.cs">
-      <DependentUpon>RTSSearch.cs</DependentUpon>
+    <Compile Include="SetRTSFEE.Designer.cs">
+      <DependentUpon>SetRTSFEE.cs</DependentUpon>
     </Compile>
     <Compile Include="studentinfo.cs">
       <SubType>Form</SubType>
@@ -181,6 +175,18 @@
     </Compile>
     <Compile Include="RTSPayeMent.Designer.cs">
       <DependentUpon>RTSPayeMent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RTsRegistration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RTsRegistration.Designer.cs">
+      <DependentUpon>RTsRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RTSReports.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RTSReports.Designer.cs">
+      <DependentUpon>RTSReports.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AddExpense.resx">
       <DependentUpon>AddExpense.cs</DependentUpon>
@@ -213,14 +219,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RTS Report.resx">
-      <DependentUpon>RTS Report.cs</DependentUpon>
+    <EmbeddedResource Include="SearchRTS.resx">
+      <DependentUpon>SearchRTS.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RtsPayment.resx">
-      <DependentUpon>RtsPayment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RTSSearch.resx">
-      <DependentUpon>RTSSearch.cs</DependentUpon>
+    <EmbeddedResource Include="SetRTSFEE.resx">
+      <DependentUpon>SetRTSFEE.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="studentinfo.resx">
       <DependentUpon>studentinfo.cs</DependentUpon>
@@ -233,6 +236,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RTSPayeMent.resx">
       <DependentUpon>RTSPayeMent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RTsRegistration.resx">
+      <DependentUpon>RTsRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RTSReports.resx">
+      <DependentUpon>RTSReports.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

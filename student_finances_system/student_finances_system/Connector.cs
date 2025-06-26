@@ -42,7 +42,7 @@ namespace student_finances_system
             //
             try
             {
-               
+
                 cmd.Parameters.AddWithValue("@bill", expenseName);
                 cmd.Parameters.AddWithValue("@amount", amount);
                 cmd.Parameters.AddWithValue("@date", date);
@@ -63,7 +63,7 @@ namespace student_finances_system
             }
 
         }
-        public static DataSet GenerateExpenseReport(int startingMonth,int endningMonth,int year)
+        public static DataSet GenerateExpenseReport(int startingMonth, int endningMonth, int year)
         {
             string query = @"SELECT *
                     FROM Expenses
@@ -89,10 +89,10 @@ namespace student_finances_system
 
 
             SqlConnection con = CreateConnection();
-            SqlCommand cmd = GetCommand(query,con);
-            cmd.Parameters.AddWithValue("@startMonth",startingMonth);
-            cmd.Parameters.AddWithValue("@endMonth",endningMonth);
-            cmd.Parameters.AddWithValue("@year",year);
+            SqlCommand cmd = GetCommand(query, con);
+            cmd.Parameters.AddWithValue("@startMonth", startingMonth);
+            cmd.Parameters.AddWithValue("@endMonth", endningMonth);
+            cmd.Parameters.AddWithValue("@year", year);
             DataSet ds = new DataSet();
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
             adapter.Fill(ds, "ExpenseTable");
@@ -137,7 +137,7 @@ namespace student_finances_system
             SqlCommand cmd = GetCommand(query, con);
             cmd.Parameters.AddWithValue("@startMonth", startingMonth);
             cmd.Parameters.AddWithValue("@endMonth", endningMonth);
-            
+
             DataSet ds = new DataSet();
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
             adapter.Fill(ds, "StudentReport");
@@ -152,23 +152,23 @@ namespace student_finances_system
             {
                 SqlConnection con = CreateConnection();
                 SqlCommand cmd = GetCommand(query, con);
-                cmd.Parameters.AddWithValue("@name",teacherName);
+                cmd.Parameters.AddWithValue("@name", teacherName);
                 cmd.Parameters.AddWithValue("@qualification", qualification);
                 cmd.Parameters.AddWithValue("@dateJoining", dateOfJoinig);
                 cmd.Parameters.AddWithValue("@salary", salary);
-                 cmd.ExecuteNonQuery();
-               
-                
-                    MessageBox.Show("Values Are adeed");
+                cmd.ExecuteNonQuery();
 
-                
-                
+
+                MessageBox.Show("Values Are adeed");
+
+
+
             }
             catch
             {
                 MessageBox.Show("Error");
             }
-            
+
 
 
         }
@@ -184,7 +184,7 @@ namespace student_finances_system
             }
             MessageBox.Show("Done");
         }
-        public static void LoadSalary(TextBox t,string selectTeach)
+        public static void LoadSalary(TextBox t, string selectTeach)
         {
             string query = @"select salary from TeacherRecord where teacherName=@name";
             SqlConnection con = CreateConnection();
@@ -198,7 +198,8 @@ namespace student_finances_system
 
 
         }
-        public static  void  AddMonthToComboBox(ComboBox cmb)
+        //month hanlding
+        public static void AddMonthToComboBox(ComboBox cmb)
         {
             Dictionary<int, string> months = new Dictionary<int, string>
 {
@@ -222,7 +223,8 @@ namespace student_finances_system
             cmb.DisplayMember = "Value";
             cmb.ValueMember = "Key";
         }
-        public static void UpdateSalary(string name,int noOfdays,int ChergerPerDay,string date)
+        //teacher salary
+        public static void UpdateSalary(string name, int noOfdays, int ChergerPerDay, string date)
         {
             string query = @"UPDATE TeacherRecord
                             SET NetPaid = (SELECT Salary - (@noOfdays * @ChergerPerDay) FROM TeacherRecord WHERE teacherName = 'ali'),  IsPaid=1,PaidDate=@Date
@@ -242,57 +244,183 @@ namespace student_finances_system
         }
         // maganenig rts
         //inserting alread std from accedmy data
-        public static void InsertDataAccdemyStudent()
-        {
-            string query = @"insert into RtsRegistrationAndFee(StudentID,StudentName,FatherName,Class)
-                            select * from StudentInfoForRTS
-                            where StudentID not in (select StudentID from RtsRegistrationAndFee);";
-            try
-            {
-                SqlConnection con = CreateConnection();
-                SqlCommand cmd = GetCommand(query, con);
-                int effectedRow = cmd.ExecuteNonQuery();
-                if (effectedRow > 0)
-                {
-                    MessageBox.Show("Done");
-                }
-            }
-            catch
-            {
-                MessageBox.Show("Not Added");
-            }
-           
-        }
+        //public static void InsertDataAccdemyStudent()
+        //{
+        //    string query = @"insert into RtsRegistrationAndFee(StudentID,StudentName,FatherName,Class)
+        //                    select * from StudentInfoForRTS
+        //                    where StudentID not in (select StudentID from RtsRegistrationAndFee);";
+        //    try
+        //    {
+        //        SqlConnection con = CreateConnection();
+        //        SqlCommand cmd = GetCommand(query, con);
+        //        int effectedRow = cmd.ExecuteNonQuery();
+        //        if (effectedRow > 0)
+        //        {
+        //            MessageBox.Show("Done");
+        //        }
+        //    }
+        //    catch
+        //    {
+        //        MessageBox.Show("Not Added");
+        //    }
+
+        //}
         //new std rts Resiger
-        public static void RtsRegistration(string name,string fatherName,string rtsClass)
+        public static bool RtsRegistration(string RTSID, string name, string fatherName, string rtsClass)
         {
             Random rand = new Random();
-            int randomNumber = rand.Next(1000, 10000); 
+            int randomNumber = rand.Next(1000, 10000);
             string studentID = randomNumber.ToString();
 
-            string query = @"insert into RtsRegistrationAndFee(StudentID,StudentName,FatherName,Class)
-                    values(@studentID,@StudentName,@FatherName,@Class)";
-           
+            string query = @"insert into RtsRegistrationAndFee(RTSID,StudentID,StudentName,FatherName,Class)
+                    values(@RTSID,@studentID,@StudentName,@FatherName,@Class)";
+
             try
             {
                 SqlConnection con = CreateConnection();
                 SqlCommand cmd = GetCommand(query, con);
+                cmd.Parameters.AddWithValue("@RTSID", RTSID);
                 cmd.Parameters.AddWithValue("@studentID", studentID);
                 cmd.Parameters.AddWithValue("@StudentName", name);
                 cmd.Parameters.AddWithValue("@FatherName", fatherName);
-                 cmd.Parameters.AddWithValue("@Class", rtsClass);
+                cmd.Parameters.AddWithValue("@Class", rtsClass);
                 int effectedRow = cmd.ExecuteNonQuery();
                 if (effectedRow > 0)
                 {
                     MessageBox.Show("Register Successfullu!!!");
+
                 }
+                return true;
+
+
+
 
 
             }
             catch
             {
                 MessageBox.Show("!! Failed Registertion");
+                return false;
+
+            }
+
+        }
+        public static void AutoUpdateFee(string RTSID)
+        {
+            string query = @"
+        UPDATE RtsRegistrationAndFee
+        SET [RTS FEE] = (
+            SELECT RTSFEE 
+            FROM SetRTSFee 
+            WHERE SetRTSFee.Class = RtsRegistrationAndFee.Class
+        )
+        WHERE RTSID = @RTSID AND payment =0";
+
+            SqlConnection con = CreateConnection();
+            SqlCommand cmd = GetCommand(query, con);
+            cmd.Parameters.AddWithValue("@RTSID", RTSID);
+
+            int effectedRow = cmd.ExecuteNonQuery();
+            if (effectedRow > 0)
+            {
+                MessageBox.Show("✅ Auto Fee Updated Successfully.");
+            }
+            else
+            {
+                MessageBox.Show("❌ Could Not Set Auto Fee. Either payment is already made or class mismatch.");
             }
         }
+
+
+        //seting rts Fees
+        public static void SetRTSFee(int RTSFEE, string RTSClass)
+        {
+            string query = @"update SetRTSFee
+                set RTSFEE=@Fee
+                    where class=@RTSClass";
+            try
+            {
+                SqlConnection con = CreateConnection();
+                SqlCommand cmd = GetCommand(query, con);
+                cmd.Parameters.AddWithValue("@Fee", RTSFEE);
+                cmd.Parameters.AddWithValue("@RTSClass", RTSClass);
+                int effected = cmd.ExecuteNonQuery();
+                if (effected > 0)
+                {
+                    MessageBox.Show($"Update RTS FEE {RTSClass}");
+                }
+
+            }
+            catch
+            {
+                MessageBox.Show($"Not Updated RTS FEE OF {RTSClass}");
+            }
+        }
+        //Paying Fee of Rts in with installment
+        public static void PayRTSFee(string RTSID, int installMentAmount, int noOfInstallments, string date,double percentage)
+        {
+            string query = @"UPDATE RtsRegistrationAndFee
+                        SET 
+                        payMentDate=@date,
+                        payment = payment + @instamentAmount,
+                        [RTS FEE]=[RTS FEE]-([RTS FEE]*@Pectage),
+                        NoInstallMents = @Installment - 1,
+                        isPaid=ispaid+1
+                        WHERE RTSID = @RTSID";
+            try
+            {
+                SqlConnection con = CreateConnection();
+                SqlCommand cmd = GetCommand(query, con);
+                cmd.Parameters.AddWithValue("@date", date);
+                cmd.Parameters.AddWithValue("@instamentAmount", installMentAmount);
+                cmd.Parameters.AddWithValue("@Pectage", percentage);
+                cmd.Parameters.AddWithValue("@Installment", noOfInstallments);
+                cmd.Parameters.AddWithValue("@RTSID", RTSID);
+                int effectedRow = cmd.ExecuteNonQuery();
+                if (effectedRow > 0)
+                {
+                    MessageBox.Show($"{noOfInstallments} Install is Paid Remaining {noOfInstallments - 1}");
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Not Paid ");
+            }
+
+        }
+        public static double RTSClassFee(string rtsClass)
+        {
+            double ClassFee;
+            string query = @"select RTSFEE from SetRTSFee
+                            where class=@rtsClass";
+            try
+            {
+                SqlConnection con = CreateConnection();
+                SqlCommand cmd = GetCommand(query, con);
+                cmd.Parameters.AddWithValue("@rtsClass", rtsClass);
+                SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    ClassFee = Convert.ToDouble(reader["RTSFEE"]);
+                    return ClassFee;
+                }
+                else{
+                    MessageBox.Show($"!!! Add RTS FEE OF Claas{rtsClass}");
+                    return 0;
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Error");
+                return 0;
+            }
+            
+        }
+        public static void GetDataOfRTS()
+        {
+
+        }
+
     }
+   
 }
