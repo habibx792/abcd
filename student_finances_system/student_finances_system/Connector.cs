@@ -488,7 +488,42 @@ namespace student_finances_system
             }
 
         }
+        public static DataSet TeacherAnul(int year, int startMonth, int endingMonth)
+        {
+            string query = @"SELECT * FROM TeacherRecord
+                WHERE YEAR(PaidDate) = @year
+             AND MONTH(PaidDate) BETWEEN @startMonth AND @endingMonth;";
+            DataSet ds = new DataSet();
+            try
+            {
+                SqlConnection con = CreateConnection();
+                SqlCommand cmd = GetCommand(query, con);
+                cmd.Parameters.AddWithValue("@year", year);
+                cmd.Parameters.AddWithValue("@startMonth", startMonth);
+                cmd.Parameters.AddWithValue("@endingMonth", endingMonth);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                adapter.Fill(ds, "TeacherTable");
+                return ds;
+            }
+            catch
+            {
+                MessageBox.Show("Error in Fetching Teacher Data !");
+                return ds;
+            }
+        }
+        //public static DataSet RTSAnulReport(int year, int startMonth, int endingMonth)
+        //{
+            
+
+        //}
+
+
+            
+
+
+        }
 
     }
    
-}
+

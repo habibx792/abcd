@@ -207,8 +207,98 @@ namespace student_finances_system
 
         private void button2_Click(object sender, EventArgs e)
         {
+            SaveFileDialog saveFileDialog = new SaveFileDialog
+            {
+                Filter = "Excel Workbook|*.xlsx",
+                Title = "Save Annual Report Excel File"
+            };
 
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                string filePath = saveFileDialog.FileName;
+
+                using (XLWorkbook workbook = new XLWorkbook())
+                {
+                    int year = int.Parse(cmbLostYear.SelectedItem.ToString());
+                    int startMonth = DateTime.ParseExact(((KeyValuePair<int, string>)cmbLostStart.SelectedItem).Value, "MMMM", CultureInfo.InvariantCulture).Month;
+                    int endMonth = DateTime.ParseExact(((KeyValuePair<int, string>)cmbLostEnd.SelectedItem).Value, "MMMM", CultureInfo.InvariantCulture).Month;
+
+                    DataSet dsTeacher = Connector.TeacherAnul(year, startMonth, endMonth);
+                    DataSet dsRTS = Connector.CreatRTSReport(year, startMonth, endMonth);
+                    DataSet dsStudent = Connector.GenerateStudentReport(year, startMonth, endMonth);
+                    DataSet dsExpense = Connector.GenerateExpenseReport(startMonth, endMonth, year);
+
+                    // Helper method to beautify and add sheet
+                    void AddStyledWorksheet(DataTable table, string sheetName)
+                    {
+                        var ws = workbook.Worksheets.Add(table, sheetName);
+
+                        // Header style
+                        var header = ws.Range(1, 1, 1, table.Columns.Count);
+                        header.Style.Font.Bold = true;
+                        header.Style.Fill.BackgroundColor = XLColor.LightSteelBlue;
+                        header.Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Center;
+                        header.Style.Font.FontSize = 12;
+
+                        // Borders
+                        ws.RangeUsed().Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
+                        ws.RangeUsed().Style.Border.InsideBorder = XLBorderStyleValues.Thin;
+
+                        // Auto-size columns
+                        ws.Columns().AdjustToContents();
+
+                        // Zebra row coloring
+                        for (int i = 2; i <= table.Rows.Count + 1; i++)
+                        {
+                            var row = ws.Row(i);
+                            row.Style.Fill.BackgroundColor = (i % 2 == 0) ? XLColor.White : XLColor.LightGray;
+                        }
+                    }
+
+                    // Add each dataset with styles
+                    AddStyledWorksheet(dsTeacher.Tables["TeacherTable"], "Teacher Report");
+                    AddStyledWorksheet(dsRTS.Tables["RTSReportTable"], "RTS Report");
+                    AddStyledWorksheet(dsStudent.Tables["StudentReport"], "Student Report");
+                    AddStyledWorksheet(dsExpense.Tables["ExpenseTable"], "Expense Report");
+
+                    // Add Final Summary Sheet
+                    var summary = workbook.Worksheets.Add("Annual Report");
+                    summary.Cell("A1").Value = "Annual Financial Report";
+                    summary.Cell("A1").Style.Font.Bold = true;
+                    summary.Cell("A1").Style.Font.FontSize = 16;
+                    summary.Cell("A1").Style.Font.FontColor = XLColor.DarkBlue;
+                    summary.Cell("A1").Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Center;
+                    summary.Range("A1:D1").Merge();
+
+                    summary.Cell("A2").Value = $"Year: {year}";
+                    summary.Cell("A2").Style.Font.Bold = true;
+
+                    summary.Cell("A3").Value = $"From: {cmbLostStart.Text} To: {cmbLostEnd.Text}";
+                    summary.Cell("A3").Style.Font.Italic = true;
+
+                    summary.Cell("A5").Value = "Note: Summary and calculations can be added here.";
+                    summary.Columns().AdjustToContents();
+
+                    // Save to file
+                    workbook.SaveAs(filePath);
+
+                    MessageBox.Show("Excel file saved successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    // Ask user if they want to print the file
+                    DialogResult result = MessageBox.Show("Do you want to print the report now?", "Print Report", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    if (result == DialogResult.Yes)
+                    {
+                        System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo()
+                        {
+                            FileName = filePath,
+                            UseShellExecute = true,
+                            Verb = "print"
+                        });
+                    }
+                }
+            }
         }
+
 
         private void lblExpenseReport_Click(object sender, EventArgs e)
         {
@@ -230,6 +320,7 @@ namespace student_finances_system
             int endDate = DateTime.ParseExact(endMonthName, "MMMM", CultureInfo.InvariantCulture).Month;
             int year = int.Parse(cmbstdYear.SelectedItem.ToString());
             DataSet ds = Connector.GenerateStudentReport(year,startDate, endDate);
+           
             DatagridStd.DataSource = ds.Tables["StudentReport"];
 
 
@@ -362,7 +453,27 @@ namespace student_finances_system
             ExpenseDataGrid.Visible = false;
             AnulGrid.Visible = true;
 
+            string startMonthName = ((KeyValuePair<int, string>)cmbLostStart.SelectedItem).Value;
+            string endMonthName = ((KeyValuePair<int, string>)cmbLostEnd.SelectedItem).Value;
+            int year = int.Parse(cmbLostYear.SelectedItem.ToString());
+
+            int startDate = DateTime.ParseExact(startMonthName, "MMMM", CultureInfo.InvariantCulture).Month;
+            int endDate = DateTime.ParseExact(endMonthName, "MMMM", CultureInfo.InvariantCulture).Month;
+
+            DataSet dsteach = Connector.TeacherAnul(year, startDate, endDate);
+            DataSet dsRTS = Connector.CreatRTSReport(year, startDate, endDate);
+            DataSet dsStd = Connector.GenerateStudentReport(year, startDate, endDate);
+            DataSet dsExpense = Connector.GenerateExpenseReport(startDate, endDate, year);
+
+            DataTable mergedTable = dsteach.Tables["TeacherTable"].Copy();
+
+            mergedTable.Merge(dsRTS.Tables["RTSReportTable"]);
+            mergedTable.Merge(dsExpense.Tables["ExpenseTable"]);
+            mergedTable.Merge(dsStd.Tables["StudentReport"]);
+
+            AnulGrid.DataSource = mergedTable;
         }
+
 
         private void AnulGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {

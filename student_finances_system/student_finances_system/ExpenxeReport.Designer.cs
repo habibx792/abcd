@@ -80,7 +80,7 @@
             this.btnGenerate.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerate.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnGenerate.Location = new System.Drawing.Point(652, 12);
+            this.btnGenerate.Location = new System.Drawing.Point(650, 12);
             this.btnGenerate.Margin = new System.Windows.Forms.Padding(2);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(120, 53);
