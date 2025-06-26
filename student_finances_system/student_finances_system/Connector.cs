@@ -99,7 +99,7 @@ namespace student_finances_system
 
             return ds;
         }
-        public static DataSet GenerateStudentReport(int startingMonth, int endningMonth)
+        public static DataSet GenerateStudentReport(int year,int startingMonth, int endningMonth)
         {
             SqlConnection con = CreateConnection();
             string query = @"
@@ -114,7 +114,7 @@ namespace student_finances_system
     FROM TransactionHistory
     INNER JOIN StudentInfo 
         ON TransactionHistory.StudentID = StudentInfo.StudentID
-    WHERE 
+    WHERE year(PaymentDate)=@year and
         TransactionHistory.IsPaid = 1
         AND (
             CASE MonthName
@@ -137,6 +137,7 @@ namespace student_finances_system
             SqlCommand cmd = GetCommand(query, con);
             cmd.Parameters.AddWithValue("@startMonth", startingMonth);
             cmd.Parameters.AddWithValue("@endMonth", endningMonth);
+            cmd.Parameters.AddWithValue("@year", year);
 
             DataSet ds = new DataSet();
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
@@ -223,6 +224,7 @@ namespace student_finances_system
             cmb.DisplayMember = "Value";
             cmb.ValueMember = "Key";
         }
+  
         //teacher salary
         public static void UpdateSalary(string name, int noOfdays, int ChergerPerDay, string date)
         {
@@ -323,11 +325,11 @@ namespace student_finances_system
             int effectedRow = cmd.ExecuteNonQuery();
             if (effectedRow > 0)
             {
-                MessageBox.Show("✅ Auto Fee Updated Successfully.");
+                MessageBox.Show(" Auto Fee Updated Successfully.");
             }
             else
             {
-                MessageBox.Show("❌ Could Not Set Auto Fee. Either payment is already made or class mismatch.");
+                MessageBox.Show(" Could Not Set Auto Fee. Either payment is already made or class mismatch.");
             }
         }
 
@@ -416,8 +418,74 @@ namespace student_finances_system
             }
             
         }
-        public static void GetDataOfRTS()
+        public static DataSet GetDataOfRTS(string RTSID)
         {
+            string str = @"Data Source=HABIBSYSTEM\SQLEXPRESS;Initial Catalog=Student;Integrated Security=True";
+            string query = @"select * from RtsRegistrationAndFee where RTSID like @RTSID";
+            DataSet ds = new DataSet();
+            try
+            {
+                SqlConnection con = new SqlConnection(str);
+                SqlCommand cmd = GetCommand(query, con);
+                cmd.Parameters.AddWithValue("@RTSID", "%" + RTSID + "%");
+               
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                adapter.Fill(ds, "RTSTABLE");
+                return ds;
+            }
+            catch
+            {
+                MessageBox.Show("Conneect DataBase");
+                return ds;
+            }
+           
+        }
+        public static DataSet CreatRTSReport(int year,int startingMonth,int endingMonth)
+        {
+
+            string query = @"
+        SELECT 
+            RTSID,
+            StudentID,
+            StudentName,
+            FatherName,
+            Class,
+            PayMentDate,
+            NoInstallMents,
+            [RTS FEE],
+            Payment,
+            ISPAID
+        FROM RtsRegistrationAndFee
+        WHERE 
+            MONTH(PayMentDate) BETWEEN @startMonth AND @endMonth
+            AND YEAR(PayMentDate) = @Year
+        ORDER BY 
+            CASE 
+                WHEN Class = '9th' THEN 1
+                WHEN Class = '10th' THEN 2
+                WHEN Class = '11th' THEN 3
+                WHEN Class = '12th' THEN 4
+                ELSE 5
+            END;";
+            DataSet ds = new DataSet();
+            try
+            {
+                SqlConnection con = CreateConnection();
+                SqlCommand cmd = GetCommand(query, con);
+
+                cmd.Parameters.AddWithValue("@Year", year);
+                cmd.Parameters.AddWithValue("@startMonth",startingMonth);
+                cmd.Parameters.AddWithValue("@endMonth", endingMonth);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                adapter.Fill(ds, "RTSReportTable");
+                return ds;
+            }
+            catch
+            {
+                MessageBox.Show("Error");
+                return ds;
+            }
 
         }
 

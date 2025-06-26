@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Drawing.Printing;
-using System.Drawing;
+
 
 namespace student_finances_system
 {
@@ -82,6 +82,11 @@ namespace student_finances_system
             TxtFatherName.Text = "";
             cmbClass.SelectedIndex = -1;
         
+        }
+
+        private void RTSRegistertion_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -66,11 +66,13 @@
             this.label7 = new System.Windows.Forms.Label();
             this.DatagridStd = new System.Windows.Forms.DataGridView();
             this.lblYearNow = new System.Windows.Forms.Label();
+            this.AnulGrid = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ExpenseDataGrid)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DatagridStd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AnulGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // btnGenerate
@@ -91,7 +93,7 @@
             // 
             this.lblYear.AutoSize = true;
             this.lblYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYear.Location = new System.Drawing.Point(532, 69);
+            this.lblYear.Location = new System.Drawing.Point(404, 69);
             this.lblYear.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblYear.Name = "lblYear";
             this.lblYear.Size = new System.Drawing.Size(53, 24);
@@ -136,7 +138,7 @@
             // 
             this.lblEndMonth.AutoSize = true;
             this.lblEndMonth.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEndMonth.Location = new System.Drawing.Point(244, 69);
+            this.lblEndMonth.Location = new System.Drawing.Point(212, 69);
             this.lblEndMonth.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEndMonth.Name = "lblEndMonth";
             this.lblEndMonth.Size = new System.Drawing.Size(141, 24);
@@ -212,7 +214,7 @@
             // 
             this.lblStartMonth.AutoSize = true;
             this.lblStartMonth.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStartMonth.Location = new System.Drawing.Point(45, 69);
+            this.lblStartMonth.Location = new System.Drawing.Point(15, 69);
             this.lblStartMonth.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblStartMonth.Name = "lblStartMonth";
             this.lblStartMonth.Size = new System.Drawing.Size(144, 24);
@@ -229,12 +231,12 @@
             this.Amount,
             this.Date,
             this.Month});
-            this.ExpenseDataGrid.Location = new System.Drawing.Point(-2, 419);
+            this.ExpenseDataGrid.Location = new System.Drawing.Point(-2, 444);
             this.ExpenseDataGrid.Margin = new System.Windows.Forms.Padding(2);
             this.ExpenseDataGrid.Name = "ExpenseDataGrid";
             this.ExpenseDataGrid.RowTemplate.Height = 24;
             this.ExpenseDataGrid.ShowCellToolTips = false;
-            this.ExpenseDataGrid.Size = new System.Drawing.Size(881, 100);
+            this.ExpenseDataGrid.Size = new System.Drawing.Size(881, 44);
             this.ExpenseDataGrid.TabIndex = 21;
             this.ExpenseDataGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
@@ -277,6 +279,7 @@
             this.cmbstdYear.Name = "cmbstdYear";
             this.cmbstdYear.Size = new System.Drawing.Size(177, 32);
             this.cmbstdYear.TabIndex = 33;
+            this.cmbstdYear.SelectedIndexChanged += new System.EventHandler(this.cmbstdYear_SelectedIndexChanged);
             // 
             // cmbstdEndmonth
             // 
@@ -339,7 +342,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(241, 67);
+            this.label2.Location = new System.Drawing.Point(212, 68);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(144, 24);
@@ -385,12 +388,13 @@
             this.btnStdReport.Text = "generate";
             this.btnStdReport.UseVisualStyleBackColor = false;
             this.btnStdReport.Click += new System.EventHandler(this.btnStdReport_Click);
+            this.btnStdReport.MouseEnter += new System.EventHandler(this.btnStdReport_MouseEnter);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(532, 67);
+            this.label3.Location = new System.Drawing.Point(404, 68);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 24);
@@ -415,7 +419,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(48, 72);
+            this.label4.Location = new System.Drawing.Point(15, 58);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(141, 24);
             this.label4.TabIndex = 35;
@@ -477,6 +481,8 @@
             this.btnGenLossProfit.TabIndex = 42;
             this.btnGenLossProfit.Text = "Generate";
             this.btnGenLossProfit.UseVisualStyleBackColor = false;
+            this.btnGenLossProfit.Click += new System.EventHandler(this.btnGenLossProfit_Click);
+            this.btnGenLossProfit.MouseEnter += new System.EventHandler(this.btnGenLossProfit_MouseEnter);
             // 
             // btnFinalExel
             // 
@@ -496,7 +502,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(246, 58);
+            this.label6.Location = new System.Drawing.Point(212, 58);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(139, 24);
             this.label6.TabIndex = 40;
@@ -506,7 +512,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(532, 58);
+            this.label5.Location = new System.Drawing.Point(404, 58);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(53, 24);
             this.label5.TabIndex = 39;
@@ -515,21 +521,23 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.White;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(284, 287);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(250, 31);
+            this.label7.Size = new System.Drawing.Size(200, 31);
             this.label7.TabIndex = 40;
-            this.label7.Text = "Profit Loss Report";
+            this.label7.Text = "Anual   Report";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // DatagridStd
             // 
             this.DatagridStd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DatagridStd.Location = new System.Drawing.Point(-3, 468);
+            this.DatagridStd.Location = new System.Drawing.Point(-1, 443);
             this.DatagridStd.Name = "DatagridStd";
-            this.DatagridStd.Size = new System.Drawing.Size(881, 87);
+            this.DatagridStd.Size = new System.Drawing.Size(885, 87);
             this.DatagridStd.TabIndex = 41;
+            this.DatagridStd.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DatagridStd_CellContentClick);
             // 
             // lblYearNow
             // 
@@ -540,11 +548,22 @@
             this.lblYearNow.TabIndex = 42;
             this.lblYearNow.Text = "Year";
             // 
+            // AnulGrid
+            // 
+            this.AnulGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.AnulGrid.GridColor = System.Drawing.Color.Gold;
+            this.AnulGrid.Location = new System.Drawing.Point(-5, 444);
+            this.AnulGrid.Name = "AnulGrid";
+            this.AnulGrid.Size = new System.Drawing.Size(889, 86);
+            this.AnulGrid.TabIndex = 43;
+            this.AnulGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.AnulGrid_CellContentClick);
+            // 
             // ExpenxeReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(890, 542);
+            this.Controls.Add(this.AnulGrid);
             this.Controls.Add(this.lblYearNow);
             this.Controls.Add(this.DatagridStd);
             this.Controls.Add(this.label7);
@@ -565,6 +584,7 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DatagridStd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AnulGrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -610,5 +630,6 @@
         private System.Windows.Forms.Button btnStdReport;
         private System.Windows.Forms.DataGridView DatagridStd;
         private System.Windows.Forms.Label lblYearNow;
+        private System.Windows.Forms.DataGridView AnulGrid;
     }
 }

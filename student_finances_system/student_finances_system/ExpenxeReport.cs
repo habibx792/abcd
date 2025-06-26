@@ -33,6 +33,12 @@ namespace student_finances_system
         {
             DatagridStd.Visible = false;
             ExpenseDataGrid.Visible = true;
+            AnulGrid.Visible = false;
+           
+
+
+            ExpenseDataGrid.Visible = true;
+            ExpenseDataGrid.Height = 200;
 
             string startMonthName = ((KeyValuePair<int, string>)cmbStartMonth.SelectedItem).Value;
             string endMonthName = ((KeyValuePair<int, string>)cmbEndMonth.SelectedItem).Value;
@@ -61,6 +67,9 @@ namespace student_finances_system
 
         private void ExpenxeReport_Load(object sender, EventArgs e)
         {
+            AnulGrid.Visible = false;
+            AnulGrid.Visible = false;
+            DatagridStd.Visible = false;
             ExpenseDataGrid.Columns[0].Width = 100;
             ExpenseDataGrid.Columns[1].Width = 100;
             ExpenseDataGrid.Columns[2].Width = 100;
@@ -72,10 +81,25 @@ namespace student_finances_system
 
             Connector.AddMonthToComboBox(cmbstdStartmonth);
             Connector.AddMonthToComboBox(cmbstdEndmonth);
-           
+            
+                Dictionary<int, string> StartMonth = new Dictionary<int, string>
+                {
+                    {1, "January"},
+        
+                };
+            Dictionary<int, string> EndMonth = new Dictionary<int, string>
+                {
+                    {12, "December"},
 
-            Connector.AddMonthToComboBox(cmbLostStart);
-            Connector.AddMonthToComboBox(cmbLostEnd);
+                };
+
+            cmbLostStart.DataSource = new BindingSource(StartMonth, null);
+            cmbLostStart.DisplayMember = "Value";
+            cmbLostStart.ValueMember = "Key";
+            cmbLostEnd.DataSource = new BindingSource(EndMonth, null);
+            cmbLostEnd.DisplayMember = "Value";
+            cmbLostEnd.ValueMember = "Key";
+
 
             lblYearNow.Text = "";
             lblYearNow.Text = DateTime.Now.Year.ToString();
@@ -194,22 +218,18 @@ namespace student_finances_system
         private void btnStdReport_Click(object sender, EventArgs e)
         {
             ExpenseDataGrid.Visible = false;
+            AnulGrid.Visible = false;
             DatagridStd.Visible = true;
             string startMonthName = ((KeyValuePair<int, string>)cmbstdStartmonth.SelectedItem).Value;
             string endMonthName = ((KeyValuePair<int, string>)cmbstdEndmonth.SelectedItem).Value;
             string input = cmbYear.Text;
-            string yearInput = cmbYear.Text;
+           
 
-            //int year;
-            //if (int.TryParse(yearInput, out year))
-            //{
-            //    MessageBox.Show("❌ Invalid year format. Please type a number like 2025.");
-            //    return;
-            //}
+           
             int startDate = DateTime.ParseExact(startMonthName, "MMMM", CultureInfo.InvariantCulture).Month;
             int endDate = DateTime.ParseExact(endMonthName, "MMMM", CultureInfo.InvariantCulture).Month;
-
-            DataSet ds = Connector.GenerateStudentReport(startDate, endDate);
+            int year = int.Parse(cmbstdYear.SelectedItem.ToString());
+            DataSet ds = Connector.GenerateStudentReport(year,startDate, endDate);
             DatagridStd.DataSource = ds.Tables["StudentReport"];
 
 
@@ -316,7 +336,42 @@ namespace student_finances_system
             }
         }
 
+        private void DatagridStd_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
+        }
 
+        private void btnGenerate_MouseEnter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnStdReport_MouseEnter(object sender, EventArgs e)
+        {
+            DatagridStd.Height = 150;
+        }
+
+        private void btnGenLossProfit_MouseEnter(object sender, EventArgs e)
+        {
+            AnulGrid.Height = 150;
+        }
+
+        private void btnGenLossProfit_Click(object sender, EventArgs e)
+        {
+            DatagridStd.Visible = false;
+            ExpenseDataGrid.Visible = false;
+            AnulGrid.Visible = true;
+
+        }
+
+        private void AnulGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void cmbstdYear_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

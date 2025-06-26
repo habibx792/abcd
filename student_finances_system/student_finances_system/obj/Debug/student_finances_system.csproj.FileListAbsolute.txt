@@ -513,4 +513,3 @@ C:\Users\GHULAM HABIB\OneDrive\Desktop\New folder\abcd\student_finances_system\s
 C:\Users\GHULAM HABIB\OneDrive\Desktop\New folder\abcd\student_finances_system\student_finances_system\obj\Debug\student_finances_system.SearchRTS.resources
 C:\Users\GHULAM HABIB\OneDrive\Desktop\New folder\abcd\student_finances_system\student_finances_system\obj\Debug\student_finances_system.SetRTSFEE.resources
 C:\Users\GHULAM HABIB\OneDrive\Desktop\New folder\abcd\student_finances_system\student_finances_system\obj\Debug\student_finances_system.RTSReports.resources
-C:\Users\GHULAM HABIB\OneDrive\Desktop\New folder\abcd\student_finances_system\student_finances_system\obj\Debug\student_finances_system.FormSlip.resources
